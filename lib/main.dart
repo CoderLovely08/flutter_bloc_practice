@@ -1,6 +1,6 @@
-import 'package:bloc_practice/bloc/counter_bloc.dart';
-import 'package:bloc_practice/screen/counter_manage_screen.dart';
-import 'package:bloc_practice/screen/counter_screen.dart';
+import 'package:bloc_practice/counter_bloc/counter_bloc.dart';
+import 'package:bloc_practice/screen/counter_screens/counter_manage_screen.dart';
+import 'package:bloc_practice/screen/counter_screens/counter_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
