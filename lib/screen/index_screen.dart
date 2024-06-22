@@ -39,6 +39,13 @@ class _IndexScreenState extends State<IndexScreen> {
                   Navigator.pushNamed(context, '/todo_screen');
                 },
               ),
+              ListTile(
+                title: const Text('Courses Screen'),
+                subtitle: const Text('Courses Screen using Bloc'),
+                onTap: () {
+                  Navigator.pushNamed(context, '/courses_screen');
+                },
+              ),
             ],
           )),
     );
